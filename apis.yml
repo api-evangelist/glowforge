@@ -1,8 +1,26 @@
 aid: glowforge
 name: Glowforge
-description: 'Glowforge is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Glowforge is a Seattle-based consumer hardware company that makes desktop
+  3D laser printers (Glowforge Pro, Plus, Aura, and Spark) which cut and engrave materials
+  such as wood, acrylic, leather, fabric, and paper. The machines are cloud-connected:
+  designs are prepared in the browser-based Glowforge App (app.glowforge.com) and sent
+  to the printer over the internet, with camera-based material placement, autofocus,
+  and an online design catalog and marketplace. Glowforge does not publish a public
+  developer API; its developer-facing footprint is limited to open-source GPL firmware
+  and kernel components on GitHub (published for license compliance) and a public
+  system status page.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.builder.io/api/v1/image/assets%2F69fac0673d2644f0a0a962e1cb3045ef%2F482977e3ddd44d169668d3e7397148fd
 url: https://raw.githubusercontent.com/api-evangelist/glowforge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Hardware
+- Laser Cutting
+- 3D Printing
+- Manufacturing
+- Makers
+- Consumer Electronics
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/glowforge-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/glowforge-lifecycle.yml
+- type: StatusPage
+  url: https://status.glowforge.com/
 - type: Website
   url: https://glowforge.com
+- type: Support
+  url: https://support.glowforge.com
+- type: HelpCenter
+  url: https://community.glowforge.com
+- type: Blog
+  url: https://glowforge.com/blog/main
+- type: Pricing
+  url: https://glowforge.com/m/payment-options
+- type: SignUp
+  url: https://accounts.glowforge.com/users/sign_in
+- type: Login
+  url: https://accounts.glowforge.com/users/sign_in
+- type: TermsOfService
+  url: https://glowforge.com/terms
+- type: PrivacyPolicy
+  url: https://glowforge.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/glowforge
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

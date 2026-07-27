@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://statuspage.glowforge.com/
+status_page: https://status.glowforge.com/
+status_page_provider: statuspage.io
+components:
+- The Glowforge Homepage (glowforge.com)
+- The Glowforge App (app.glowforge.com)
+- The Glowforge Shop (shop.glowforge.com)
+- Camera Services
+- Design Load Service
+- Print Service
+- Server/Machine Communication Service
+notes: >-
+  Glowforge is a consumer hardware company (3D laser printers) and does not
+  publish a public developer API, versioning policy, deprecation policy, or SLA.
+  A live system status page is published (status.glowforge.com ->
+  statuspage.glowforge.com) covering homepage, app, shop, and the cloud
+  print/camera/design services, plus upstream dependencies (Google Cloud, AWS,
+  Yotpo, Chargebee, Contentful).
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
