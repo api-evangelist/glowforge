@@ -9,6 +9,17 @@ description: 'Glowforge is a Seattle-based consumer hardware company that makes 
   developer API; its developer-facing footprint is limited to open-source GPL firmware
   and kernel components on GitHub (published for license compliance) and a public
   system status page.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
