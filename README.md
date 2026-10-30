@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Glowforge is a company surfaced as a portfolio company of foundry-group and added to the API Evangelist network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting the enrichment pipeline.
+Glowforge is a Seattle-based consumer hardware company that makes desktop 3D laser printers (Glowforge Pro, Plus, Aura, and Spark) which cut and engrave materials such as wood, acrylic, leather, fabric, and paper. The machines are cloud-connected: designs are prepared in the browser-based Glowforge App (app.glowforge.com) and sent to the printer over the internet, with camera-based material placement, autofocus, and an online design catalog and marketplace. Glowforge does not publish a public developer API; its developer-facing footprint is limited to open-source GPL firmware and kernel components on GitHub (published for license compliance) and a public system status page.
 
-Backed by: foundry-group — https://glowforge.com
+**Areas:** Company · Hardware · Laser Cutting · 3D Printing · Manufacturing · Maker · Consumer Electronics · IoT
+
+## Glowforge on APIs.io
+
+Everything profiled for Glowforge is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/glowforge/](https://apis.io/providers/glowforge/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Glowforge Domain Security](https://apis.io/security/glowforge/glowforge-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://glowforge.com)
+- [Pricing](https://glowforge.com/m/payment-options)
+- [Sign up](https://accounts.glowforge.com/users/sign_in)
+- [Support](https://support.glowforge.com)
+- [Blog](https://glowforge.com/blog/main)
+- [Terms of service](https://glowforge.com/terms)
+- [Privacy policy](https://glowforge.com/privacy-policy)
+- [GitHub](https://github.com/glowforge)
+- [Status](https://status.glowforge.com/)
+
+## API Evangelist rating
+
+**Kin Score 17.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/glowforge/](https://apis.io/providers/glowforge/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Glowforge: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/glowforge/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
